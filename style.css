@@ -1,0 +1,257 @@
+/* * {
+    background-color: aqua;
+} */
+
+
+header {
+    background-color: aqua;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+#monster {
+    animation: houdini 2s infinite alternate;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    
+}
+
+@keyframes houdini {
+    from {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-25px);
+        opacity: 1;
+    }
+}
+
+.intro {
+    flex-basis: 75%;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+.title {
+    font-size: 75px;
+    text-align: center;
+
+    
+}
+
+.address {
+    font-size: 30px;
+    text-align: end;
+}
+
+
+.links {
+    font-size: 25px;
+    text-align: end;
+
+}
+
+hr {
+    font: 25px;
+}
+
+section p {
+    background-image: linear-gradient(aqua, blue);
+    text-align: center;
+    font: 50px bold;
+}
+
+
+.container {
+    display: block flex;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 33vh;
+}
+
+#chocolate {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTn4gF4ZYuLaB-AOPUn7sdAjByiPLdAh272Ow&usqp=CAU);
+    background-repeat: repeat-x;
+    height: 7.5vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+#gingerbread {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsUA1mC5G93h5-MAu7-Va4BYr1UpsF26SOzA&usqp=CAU);
+    background-repeat: repeat-x;
+    height: 7.5vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+#macaron {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJ6bnYG7mh1EuKBQNtPxSV5OtuAmGi38ZLGw&usqp=CAU);
+    background-repeat: repeat-x;
+    height: 7.5vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+#fortune {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzgB66YqjUVzHewiirxccOdHyuVVqYvfJiww&usqp=CAU);
+    background-repeat: repeat-x;
+    height: 7.5vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+#modal1 {
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    z-index: 1;
+    overflow: auto;
+}
+
+#modal-textbox1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: white;
+	height: fit-content;
+	width: 600px;
+    border-radius: 2px;
+    margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+    line-height: 120%;
+    text-align: left;
+}
+
+#modal2 {
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    z-index: 1;
+    overflow: auto;
+}
+
+#modal-textbox2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: white;
+	height: fit-content;
+	width: 600px;
+    border-radius: 2px;
+    margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+    line-height: 120%;
+    text-align: left;
+}
+
+#modal3 {
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    z-index: 1;
+    overflow: auto;
+}
+
+#modal-textbox3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: white;
+	height: fit-content;
+	width: 600px;
+    border-radius: 2px;
+    margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+    line-height: 120%;
+    text-align: left;
+}
+
+#modal4 {
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    z-index: 1;
+    overflow: auto;
+}
+
+#modal-textbox4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: white;
+	height: fit-content;
+	width: 600px;
+    border-radius: 2px;
+    margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+    line-height: 120%;
+    text-align: left;
+}
+#modal-footer {
+	text-align: center;
+}
+
+h1 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.modal-buttons {
+	padding: 14px 18px;
+    background-color: crimson;
+    transition: background-color 0.5s ease-in-out;
+	border: 1px solid black;
+	outline: none;
+	border-radius: 10px;
+	color: white;
+    font-family: 'Arial';
+    font: 20px bold;
+	cursor: pointer;
+}
+
+.modal-buttons:hover {
+    background-color: blue;
+}
+
+#sesame {
+    display: block flex;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 75vw;
+    height: 33vh;
+    margin: 10vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr1x44KD_E65vEfxrHk-Ivsn8WsHnFvrukyg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#YUM {
+    display: block;
+	background-color: rgba(0, 0, 0, .5);
+	border: solid black;
+	outline: none;
+	border-radius: 10px;
+	color: white;
+    font-family: 'Arial';
+    font: 40px bold;
+}
